@@ -1,0 +1,13 @@
+/* Animaciones y ajustes personalizados opcionales */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Efecto suave para las tarjetas */
+.transition-card {
+    transition: transform 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.transition-card:hover {
+    transform: translateY(-4px);
+}
